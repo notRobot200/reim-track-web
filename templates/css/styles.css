@@ -1,0 +1,31 @@
+/* Custom styles for reimbursement system */
+/* You can add custom CSS here if needed beyond Tailwind */
+
+/* Loading animation enhancement */
+.loading-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Custom focus styles for better accessibility */
+.form-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+  background-color: #f9fafb;
+}

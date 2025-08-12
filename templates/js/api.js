@@ -52,7 +52,7 @@ const API_BASE_URL = "https://reim-track-1066934090892.us-central1.run.app";
 
 // Fetch reimbursements data
 async function fetchReimbursements() {
-  const res = await fetch(`${API_BASE_URL}/reimburse`);
+  const res = await fetch(`${API_BASE_URL}/reimburse/`);
   return res.json();
 }
 
